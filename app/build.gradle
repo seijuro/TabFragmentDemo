@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+//    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+//        exclude group: 'com.android.support', module: 'support-annotations'
+//    })
+    compile 'com.android.support:appcompat-v7:23.1.1'
+//    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.melnykov:floatingactionbutton:1.0.7'
+    testCompile 'junit:junit:4.12'
+    releaseCompile "com.github.ksoichiro:android-observablescrollview:1.5.2"
+    compile project(path: ':library')
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.github.seijuro78.tabfragmentdemo"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+//    defaultConfig {
+//        applicationId "com.github.ksoichiro.android.observablescrollview.samples"
+//        versionCode 5
+//        versionName "1.3.0"
+//    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/sogiro/AndroidStudioProjects/TabFragmentDemo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/sogiro/AndroidStudioProjects/TabFragmentDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_234a1ae7f13c961cb0efd357fa6b85f53982bd34/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sogiro/AndroidStudioProjects/TabFragmentDemo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc4676f3bd9d480d28d017837adb16e4a6589fb8">
+        <dex dex="/Users/sogiro/AndroidStudioProjects/TabFragmentDemo/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7e30a778bd8eb161b51926a9530cbc8cbfc98fe2/classes.dex" />
+    </item>
+
+</items>
